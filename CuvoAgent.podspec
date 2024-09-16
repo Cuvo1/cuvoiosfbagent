@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://cuvo.ai"
   s.author           = { 'Cuvo' => 'arulmurugan800@gmail.com' }
   s.platform         = :ios, '11.0'
-  s.source           = { :http =>  "https://github.com/gargibasakcuvo/cuvoiosfbagent/raw/main/CuvoAgent.xcframework_1.0.02.zip"}
+  s.source           = { :http =>  "https://github.com/gargibasakcuvo/cuvoiosfbagent/raw/main/CuvoAgent_1.0.02.xcframework.zip"}
 
   
   s.pod_target_xcconfig = {
