@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CuvoAgent"
-  s.version          = "1.0.04"
+  s.version          = "1.0.05"
   s.summary          = "CuvoAgent"
   s.license          = { :type => "MIT", :text=> <<-LICENSE
     MIT License
