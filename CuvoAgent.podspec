@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CuvoAgent"
-  s.version          = "1.0.05"
+  s.version          = "1.0.06"
   s.summary          = "CuvoAgent"
   s.license          = { :type => "MIT", :text=> <<-LICENSE
     MIT License
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = "https://cuvo.ai"
   s.author           = { 'Cuvo' => 'arulmurugan800@gmail.com' }
-  s.platform         = :ios, '11.0'
+  s.platform         = :ios, '13.0'
   s.source           = { :http =>  "https://github.com/gargibasakcuvo/cuvoiosfbagent/raw/main/CuvoAgent.xcframework.zip"}
 
   
@@ -46,10 +46,9 @@ Pod::Spec.new do |s|
   }
   
   s.social_media_url = "https://cuvo.ai/about/"
-  s.ios.deployment_target  = '11.0'
+  s.ios.deployment_target  = '13.0'
   s.requires_arc = true
   s.module_name = 'CuvoAgent'
   s.ios.vendored_frameworks = 'CuvoAgent.xcframework'
   s.frameworks = 'Foundation'
-
 end
