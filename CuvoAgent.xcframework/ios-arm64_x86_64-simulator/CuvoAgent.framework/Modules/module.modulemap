@@ -1,0 +1,11 @@
+framework module CuvoAgent {
+  umbrella header "CuvoAgent.h"
+  export *
+
+  module * { export * }
+}
+
+module CuvoAgent.Swift {
+  header "CuvoAgent-Swift.h"
+  requires objc
+}
